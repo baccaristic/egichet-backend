@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/ticketing
-    username: postgres
-    password: yourpassword
+    url: jdbc:h2:mem:ticketingdb
+    username: sa
+    password:
   jpa:
     hibernate:
       ddl-auto: update
